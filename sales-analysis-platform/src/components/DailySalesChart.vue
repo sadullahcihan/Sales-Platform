@@ -113,6 +113,7 @@ function formatDate(dateString: string): string {
   return `${date.toLocaleDateString("en-US", {
     weekday: "short",
   })}. ${date.toLocaleDateString("en-US", {
+    day: "2-digit",
     month: "2-digit",
     year: "2-digit",
   })}`;
